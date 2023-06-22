@@ -1,0 +1,27 @@
+@import url(./module/navbar.css);
+@import url(./module/header.css);
+@import url(./module/main.css);
+@import url(./module/catalog.css);
+@import url(./module/sectionBuy.css);
+@import url(./module/footer.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text_color:rgba(255, 255, 255, 1);
+    --bg_color:  rgba(25, 20, 17, 1);
+
+}
+html{
+    font-size: 62.5%;  /* это превратит значение 16px*0.625=10px */
+}
+
+body{
+    font-size: 1.6rem; /*вернет значение к 16px для браузеров */
+}
+

@@ -1,0 +1,96 @@
+.catalog{
+    background-color: var(--bg_color);
+
+}
+.catalog__cointeiner{
+    max-width: 192rem;
+    width: 100%;
+}
+.catalog__name{
+    padding-top: 10rem;
+
+}
+.catalog__name h1{
+    text-align: center;
+    color: var(--text_color);
+    font-size: 6rem;
+    font-weight: 900;
+    padding-top: 5rem;
+}
+.catalog__cards{
+
+    
+    display: flex;
+    gap: 3rem; 
+    margin-top: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.catalog__card{
+    padding: 3rem;
+    text-align: left;
+    width: 40rem;
+    height: 55rem;
+    background: #211A16;
+    border-radius: 1.6rem;
+    border: 0.1rem solid #353535; 
+}
+.catalog__card__img img{
+    object-fit: cover;
+}
+.catalog__card__name p{
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text_color);
+}
+.catalog__card__about p{
+    padding-top: 2rem;
+    color: var(--text_color);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.catalog__card__price{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+.card__price{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.card__price p{
+    color: var(--text_color);
+    font-size: 3.2rem;
+    font-weight: 600;
+    padding: 0.4rem;
+}
+.card__mass p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: rgba(117, 117, 117, 1);
+}
+.catalog__btn{
+    
+        width: 16rem;
+        height: 6rem;
+        border-radius: 1rem;
+        background: linear-gradient(90deg, rgba(218, 128, 35, 1) 0%, rgba(226, 180, 56, 1) 100%);
+        font-family: Gilroy;
+        font-weight: 600;
+        color: black;
+        font-size: 1.8rem;  
+        border: none;
+        opacity: 0.6;
+        transition: 1s;
+        
+        
+}
+    
+.catalog__btn:hover{
+        background-color: black;
+        opacity: 1;
+        transition: 1s;
+        transform: scale(1.15 , 1.15);
+}

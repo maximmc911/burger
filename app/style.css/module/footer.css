@@ -1,0 +1,16 @@
+.footer__cointeiner{
+    padding: 5rem;
+    max-width: 192rem;
+    width: 100%;
+    background-color: var(--bg_color);
+}
+.footer__items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__items__text{
+    color: var(--text_color);
+    font-size: 1.6rem;
+    font-weight: 600;
+}

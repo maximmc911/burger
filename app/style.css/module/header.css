@@ -1,0 +1,76 @@
+.header__conteiner{
+    width: 100%;
+}
+.header__content{
+    max-width: 192rem;
+    width: 100%;
+    background-image: url("/app/image/Фон 1.png");
+    background-color: var(--bg_color);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__content__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.items__img img{
+    width: 85rem;
+    margin-right: -25rem;
+}
+.header__items{
+    width: 40rem;
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-right: -25rem;
+}
+.items__newmenu{
+    max-width: 14rem;
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+    font-family: Gilroy;
+    font-weight: 600;
+    color: var(--text_color);
+    background-color: #D3320F;
+    border-radius: 10rem;
+    text-align: center;
+    align-items: center;
+}
+.items__content h1{
+    font-family: Merriweather;
+    font-weight: 900;
+    color: var(--text_color);
+    font-size: 8rem;
+    padding-bottom: 1rem;
+}
+.items__content h2{
+    font-family: Gilroy;
+    font-weight: 600;
+    color: var(--text_color);
+    font-size: 2rem;
+}
+.header__btn {
+    width: 26rem;
+    height: 6rem;
+    border-radius: 1rem;
+    background: linear-gradient(90deg, rgba(218, 128, 35, 1) 0%, rgba(226, 180, 56, 1) 100%);
+    font-family: Gilroy;
+    font-weight: 600;
+    color: black;
+    font-size: 1.8rem;  
+    border: none;
+    opacity: 0.6;
+    transition: 1s;
+    
+    
+}
+
+.header__btn:hover{
+    background-color: black;
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1.15 , 1.15);
+}

@@ -1,0 +1,76 @@
+.buy__cointeiner{
+    max-width: 192rem;
+    width: 100%;
+    background-color: var(--bg_color);
+}
+.buy__contect{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--bg_color);
+    background-image: url('../../image/bg.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.buy__name h1{
+    text-align: center;
+    color: var(--text_color);
+    font-size: 6rem;
+    font-weight: 900;
+    padding-top: 18rem;
+    padding-bottom: 5rem;
+}
+
+.content__form{
+    width: 40rem;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1.6rem;
+    border: none;
+    gap: 3rem;
+    background: linear-gradient(90deg, rgba(33, 26, 22, 1) 0%, rgba(53, 53, 53, 1) 100%);
+}
+.content__form__text{
+    padding-top: 2rem;
+    width: 80%;
+   font-size: 2.5rem;
+   font-weight: 600;
+   color: var(--text_color);
+   text-align:center;
+}
+.content__form input{
+    width: 24rem;
+    height: 5rem;
+    border: 0.1rem solid rgba(218, 128, 35, 1);
+    border-radius: 1rem;
+    background-color: rgba(33, 26, 22, 1);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+}
+.form__btn{
+        width: 24rem;
+        height: 5rem;
+        border-radius: 1rem;
+        background: linear-gradient(90deg, rgba(218, 128, 35, 1) 0%, rgba(226, 180, 56, 1) 100%);
+        font-family: Gilroy;
+        font-weight: 600;
+        color: black;
+        font-size: 1.8rem;  
+        border: none;
+        opacity: 0.6;
+        transition: 1s;
+        
+        
+}
+    
+.form__btn:hover{
+        background-color: black;
+        opacity: 1;
+        transition: 1s;
+        transform: scale(1.15 , 1.15);
+}

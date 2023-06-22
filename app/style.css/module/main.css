@@ -1,0 +1,38 @@
+.main{
+    background-image: url("../../image/whybg.png");
+    background-color: var(--bg_color);
+}
+.main__conteiner{
+    max-width: 192rem;
+    width: 100%;
+}
+.main__cards{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 12rem;
+    
+}
+.main__name h1{
+    text-align: center;
+    color: var(--text_color);
+    font-size: 6rem;
+    font-weight: 900;
+    padding-top: 5rem;
+}
+.main__card{
+    max-width: 30rem;
+    text-align: center;
+    align-items: center;
+}
+.card__name h2{
+    padding: 2rem;
+    font-size: 2.5rem;
+    color: var(--text_color);
+    font-weight: 600;
+}
+.card__text p{
+    color: var(--text_color);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
